@@ -23,7 +23,7 @@ A simple tool that generates meta tags for your website. No more googling "what 
 
 ## 📸 Screenshot
 
-![screenshot](<img width="1345" height="1268" alt="Image" src="https://github.com/user-attachments/assets/fd7c0afd-9c12-45e4-9168-4de83436d515" />)
+!<img width="1345" height="1268" alt="Image" src="https://github.com/user-attachments/assets/fd7c0afd-9c12-45e4-9168-4de83436d515" />
 
 ## 🛠️ Tech Stack
 
