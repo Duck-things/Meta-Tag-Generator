@@ -39,7 +39,7 @@ A simple tool that generates meta tags for your website. No more googling "what 
 2. Open `index.html` in your browser
 3. that's it. literally that's it.
 ```bash
-git clone https://github.com/YOURUSERNAME/meta-tag-generator.git
+git clone https://github.com/Duck-things/meta-tag-generator.git
 cd meta-tag-generator
 # now just open index.html lol
 ```
