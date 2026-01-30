@@ -44,10 +44,6 @@ cd meta-tag-generator
 # now just open index.html lol
 ```
 
-## 💜 Made for Hack Club Flavortown
-
-Built this to get those cookies 🍪
-
 ---
 
 made with 💜 and sleep deprivation
