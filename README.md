@@ -19,7 +19,7 @@ A simple tool that generates meta tags for your website. No more googling "what 
 
 ## 🚀 Try it
 
-**[Live Demo →](https://YOURUSERNAME.github.io/meta-tag-generator)**
+**[Live Demo →](https://YOURUSERNAME.github.io/meta-tag-generator](https://duck-things.github.io/Meta-Tag-Generator/)**
 
 ## 📸 Screenshot
 
