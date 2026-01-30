@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    min-height: 100vh;
+    color: #e2e8f0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+.form-section {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #a78bfa;
+}
+
+label:first-child {
+    margin-top: 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #e2e8f0;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #a78bfa;
+    box-shadow: 0 0 0 3px rgba(167, 139, 250, 0.2);
+}
+
+textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+.preview-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.preview-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.preview-box h3 {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Google Preview */
+.google-preview {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.google-url {
+    font-size: 14px;
+    color: #202124;
+}
+
+.google-title {
+    font-size: 20px;
+    color: #1a0dab;
+    margin: 5px 0;
+}
+
+.google-desc {
+    font-size: 14px;
+    color: #545454;
+    line-height: 1.5;
+}
+
+/* Twitter Preview */
+.twitter-preview {
+    background: #000;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #2f3336;
+}
+
+.twitter-image {
+    height: 150px;
+    background: #2f3336;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+}
+
+.twitter-content {
+    padding: 15px;
+}
+
+.twitter-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #e7e9ea;
+}
+
+.twitter-desc {
+    font-size: 14px;
+    color: #8b98a5;
+    margin: 5px 0;
+}
+
+.twitter-url {
+    font-size: 13px;
+    color: #8b98a5;
+}
+
+/* Discord Preview */
+.discord-preview {
+    background: #2b2d31;
+    border-left: 4px solid #5865f2;
+    padding: 15px;
+    border-radius: 4px;
+/* Output Section */
+.output-section {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.output-section h2 {
+    margin-bottom: 10px;
+}
+
+.output-section p {
+    margin-bottom: 20px;
+}
+
+.output-section code {
+    background: rgba(167, 139, 250, 0.2);
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: #a78bfa;
+}
+
+.code-box {
+    background: #0d1117;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.code-box pre {
+    color: #7ee787;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+#copyBtn {
+    background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#copyBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(167, 139, 250, 0.3);
+}

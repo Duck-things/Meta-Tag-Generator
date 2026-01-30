@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Tag Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<div class="form-section">
+<h1>🏷️ Meta Tag Generator</h1>
+
+            <label for="siteTitle">Site Title</label>
+            <input type="text" id="siteTitle" placeholder="My Awesome Website">
+
+            <label for="siteDescription">Description</label>
+            <textarea id="siteDescription" placeholder="A short description of your website..."></textarea>
+
+            <label for="siteUrl">Website URL</label>
+            <input type="text" id="siteUrl" placeholder="https://mysite.com">
+
+            <label for="siteImage">Image URL (for social preview)</label>
+            <input type="text" id="siteImage" placeholder="https://mysite.com/preview.png">
+
+            <label for="siteName">Site Name</label>
+            <input type="text" id="siteName" placeholder="My Brand">
+
+            <label for="twitterHandle">Twitter Handle (optional)</label>
+            <input type="text" id="twitterHandle" placeholder="@username">
+        </div>
+<h2 class="preview-title">📱 Live Previews</h2>
+
+        <div class="preview-box">
+            <h3>Google Search Result</h3>
+            <div class="google-preview">
+                <div class="google-url" id="googleUrl">https://yoursite.com</div>
+                <div class="google-title" id="googleTitle">Your Site Title</div>
+                <div class="google-desc" id="googleDesc">Your site description will appear here...</div>
+            </div>
+        </div>
+
+        <div class="preview-box">
+            <h3>Twitter / X Card</h3>
+            <div class="twitter-preview">
+                <div class="twitter-image" id="twitterImage">No image</div>
+                <div class="twitter-content">
+                    <div class="twitter-title" id="twitterTitle">Your Site Title</div>
+                    <div class="twitter-desc" id="twitterDesc">Your description here...</div>
+                    <div class="twitter-url" id="twitterUrl">yoursite.com</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="preview-box">
+            <h3>Discord Embed</h3>
+            <div class="discord-preview">
+                <div class="discord-sitename" id="discordSitename">Site Name</div>
+                <div class="discord-title" id="discordTitle">Your Site Title</div>
+                <div class="discord-desc" id="discordDesc">Your description here...</div>
+                <div class="discord-image" id="discordImage">No image</div>
+            </div>
+        </div>
+                <p>Generate perfect meta tags for your website</p>
+    </div>
+<div class="output-section">
+            <h2>📋 Your Meta Tags</h2>
+            <p>Copy and paste these into your HTML <code>&lt;head&gt;</code></p>
+            <div class="code-box">
+                <pre id="codeOutput"><!-- Your meta tags will appear here --></pre>
+            </div>
+            <button id="copyBtn">📋 Copy to Clipboard</button>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
